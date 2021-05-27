@@ -7,4 +7,7 @@
     <string name="phone_number">Phone Number</string>
     <string name="last_name">Last Name</string>
     <string name="button_submit">Submit</string>
+    <string name="your_info">Your Info</string>
+    <string name="user_greeting">Thank you for your participation</string>
+    <string name="marathon_greeting">Welcome to our Marathon</string>
 </resources>
