@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="welcome_to_marathon_app">Welcome to Marathon App</string>
+    <string name="fill_the_form_to_join">Fill the form to join</string>
+    <string name="first_name">First Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="last_name">Last Name</string>
+    <string name="button_submit">Submit</string>
+</resources>
