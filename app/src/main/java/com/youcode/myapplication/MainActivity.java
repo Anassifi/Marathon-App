@@ -9,7 +9,6 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    String[] form;
     public static final String EXTRA_FNAME = "com.youcode.myapplication.FNAME";
     public static final String EXTRA_LNAME = "com.youcode.myapplication.LNAME";
     public static final String EXTRA_EMAIL = "com.youcode.myapplication.EMAIL";
@@ -27,15 +26,15 @@ public class MainActivity extends AppCompatActivity {
         EditText lname = (EditText) findViewById(R.id.editTextTextPersonLName);
         EditText email = (EditText) findViewById(R.id.editTextTextEmailAddress);
         EditText phone = (EditText) findViewById(R.id.editTextPhone);
-        form[1] = fname.getText().toString();
-        form[2] = lname.getText().toString();
-        form[3] = email.getText().toString();
-        form[4] = phone.getText().toString();
+        String ftname = fname.getText().toString();
+        String ltname= lname.getText().toString();
+        String mail = email.getText().toString();
+        String tel = phone.getText().toString();
 
-        intent.putExtra(EXTRA_FNAME, form[1]);
-        intent.putExtra(EXTRA_LNAME, form[2]);
-        intent.putExtra(EXTRA_EMAIL, form[3]);
-        intent.putExtra(EXTRA_PHONE, form[4]);
+        intent.putExtra(EXTRA_FNAME, ftname);
+        intent.putExtra(EXTRA_LNAME, ltname);
+        intent.putExtra(EXTRA_EMAIL, mail);
+        intent.putExtra(EXTRA_PHONE, tel);
 
         startActivity(intent);
     }
